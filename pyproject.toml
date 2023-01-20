@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fetch"
+version = "0.1.0"
+description = ""
+authors = ["Robin Schroer <git@sulami.xyz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.2"
+beautifulsoup4 = "^4.11.1"
+pytest = "^7.2.1"
+aiohttp = "^3.8.3"
+aiodns = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
